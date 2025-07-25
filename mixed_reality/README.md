@@ -7,13 +7,13 @@ This package provides a mixed-reality robotics framework for small-scale autonom
 ---
 
 ## REQUIREMENTS
--Ubuntu 20.04 LTS
+- Ubuntu 20.04 LTS
 
--Python 3.8.10
+- Python 3.8.10
 
--ROS Noetic (http://wiki.ros.org/noetic/Installation/Ubuntu)
+- ROS Noetic (http://wiki.ros.org/noetic/Installation/Ubuntu)
 
--
+- Install requirements.txt
 
 
 ## Add This Directory as a `catkin_ws` Package
@@ -81,6 +81,10 @@ rosrun mixed_reality [NODE_NAME].py
 
 ## Usage
 
+ALL COMMANDS TO BE RUN IN catkin_ws/src/mixed_reality/
+source devel/setup.bash must be invoked first
+
+
 ### Start Framework Without Nodes
 
 ```bash
@@ -112,6 +116,7 @@ roslaunch mixed_reality empty.launch
 
 ```bash
 roslaunch mixed_reality empty.launch mapping:=false tracking:=false
+rosrun mixed_reality simulator_inteface.py
 rosrun mixed_reality user_interface.py
 ```
 
@@ -133,6 +138,7 @@ rosrun mixed_reality modular_latticeplanner.py
 
 ```bash
 roslaunch mixed_reality SiL.launch
+rosrun mixed_reality simulator_inteface.py
 rosrun mixed_reality user_interface.py
 ```
 
@@ -176,6 +182,7 @@ rosrun mixed_reality modular_latticeplanner.py
 
 ```bash
 roslaunch mixed_reality RW.launch
+rosrun mixed_reality simulator_inteface.py
 rosrun mixed_reality user_interface.py
 ```
 
@@ -184,6 +191,10 @@ rosrun mixed_reality user_interface.py
 rosrun mixed_reality camera_interface.py
 rosrun mixed_reality e2e_model.py
 ```
+Once running, use the following commands in the user interface:
+"g" - to move
+"s" - to stop
+"i/d" - to increase/decrease throttle multiplier
 
 **Modular:**
 ```bash
@@ -200,6 +211,7 @@ rosrun mixed_reality modular_latticeplanner.py
 
 ```bash
 roslaunch mixed_reality MR.launch
+rosrun mixed_reality simulator_inteface.py
 rosrun mixed_reality user_interface.py
 ```
 
@@ -235,6 +247,7 @@ roslaunch mixed_reality ViL.launch
 Then:
 
 ```bash
+rosrun mixed_reality simulator_inteface.py
 rosrun mixed_reality user_interface.py
 ```
 
