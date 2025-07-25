@@ -1,0 +1,5 @@
+Please use the following google drive link to download the simulator binary:
+https://drive.google.com/drive/folders/1yKnazjk97lIPfQ2ohOxl5wkFy8BbuIhH?usp=sharing
+
+Both the binary "Binary.x86_64" and the relative data folder "Binary_Data" need to be located in the same folder
+If necessary ensure the binary is flagged as executable.

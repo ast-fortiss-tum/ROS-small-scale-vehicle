@@ -1,6 +1,4 @@
 .vscode
-build
-config
 dummy camera photo.jpg
 dummy_depth_data.npy
 dummy_photo.jpg
@@ -42,6 +40,5 @@ src/mixed_reality/utils/__pycache__/__init__.cpython-38.pyc
 src/mixed_reality/utils/__pycache__/control_utils.cpython-38.pyc
 src/mixed_reality/utils/__pycache__/for_conversions.cpython-38.pyc
 src/mixed_reality/utils/__pycache__/vicon.cpython-38.pyc
-srv/GetEnvironment.srv
 dummy_lidar_photo.jpg
 .DS_Store
