@@ -8,8 +8,12 @@ This package provides a mixed-reality robotics framework for small-scale autonom
 
 ## REQUIREMENTS
 -Ubuntu 20.04 LTS
+
 -Python 3.8.10
+
 -ROS Noetic (http://wiki.ros.org/noetic/Installation/Ubuntu)
+
+-
 
 
 ## Add This Directory as a `catkin_ws` Package
