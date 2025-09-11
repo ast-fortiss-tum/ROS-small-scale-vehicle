@@ -176,6 +176,17 @@ rosrun mixed_reality modular_sim_perception.py
 rosrun mixed_reality modular_latticeplanner.py
 ```
 
+**Dummy ViL: To evaluate the usage of the ViL setup we provide a ROS bag with a recording of the hehicle driving in room Generalization**
+```bash
+roslaunch mixed_reality ViL_dummy.launch
+```
+
+Once the simulator has been launched, playback the dummy_rosbag.bag
+
+```bash
+rosbag play dummy_rosbag.bag
+```
+
 ---
 
 ### 4. RW (Real-World)
