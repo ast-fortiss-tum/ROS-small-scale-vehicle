@@ -15,6 +15,8 @@ This package provides a mixed-reality robotics framework for small-scale autonom
 
 - Install requirements.txt
 
+- Use drive link in simulator_binaries/download_binaries.txt to download the simulator and follow instructions in the file
+
 
 ## Add This Directory as a `catkin_ws` Package
 
