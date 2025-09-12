@@ -178,12 +178,12 @@ rosrun mixed_reality modular_sim_perception.py
 rosrun mixed_reality modular_latticeplanner.py
 ```
 
-**Dummy ViL: To evaluate the usage of the ViL setup we provide a ROS bag with a recording of the hehicle driving in room Generalization**
+**Dummy ViL: To evaluate the usage of the ViL setup we provide a ROS bag with a recording of the vehicle driving in room Nominal using the E2E model**
 ```bash
 roslaunch mixed_reality ViL_dummy.launch
 ```
 
-Once the simulator has been launched, playback the dummy_rosbag.bag
+Once the simulator has been launched, playback the dummy_rosbag.bag (to be downloaded from the following link: https://drive.google.com/file/d/1GsYeIxum46u5z-wqCy8IEs7VdwDci6Eb/view?usp=drive_link)
 
 ```bash
 rosbag play dummy_rosbag.bag

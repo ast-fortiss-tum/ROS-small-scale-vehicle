@@ -8,7 +8,7 @@
     <arg name="mixed" default="false" />
     <arg name="sim" default="true" />
 
-    <rosparam command="load" file="$(find mixed_reality)/launch/params_generalization.yaml" />
+    <rosparam command="load" file="$(find mixed_reality)/launch/params.yaml" />
     <param name="mapping" value="$(arg mapping)" />
     <param name="tracking" value="$(arg tracking)" />
     <param name="real" value="$(arg real)" />
@@ -27,11 +27,11 @@
       output="screen"
       cwd="node" /> -->
 
-    <!-- <node pkg="mixed_reality"
+    <node pkg="mixed_reality"
       type="control.py"
       name="control"
       output="screen"
-      cwd="node" /> -->
+      cwd="node" />
 
     <!-- <node pkg="mixed_reality"
       type="car_interface.py"
