@@ -2,8 +2,10 @@
 
 This repository contains the replication package for the paper:
 
-**"A Multi-Modality Evaluation of the Reality Gap in Autonomous Driving Systems"**  
-_(Submitted for review in ASE)_
+**"A Multi-Modality Evaluation of the Reality Gap in Autonomous Driving Systems"** In Proceedings of the *40th IEEE/ACM International Conference on Automated Software Engineering*, 2025.
+
+A preprint version of the paper is available on [arXiv](https://arxiv.org/abs/2509.22379).
+
 
 ## Repository Structure
 
@@ -24,3 +26,18 @@ _(Submitted for review in ASE)_
 Refer to the `README.md` files inside each subfolder for setup instructions, usage examples, and experiment details.
 
 ---
+
+## Reference
+If you use our work in your research, if it helps your work, or if you simply find it useful, please cite the paper in your publications. An example BibTeX entry is provided below:
+
+```bibtex
+@inproceedings{2025-Lambertenghi-ASE,
+	author       = {Stefano Carlo Lambertenghi and Mirena Flores Valdez and Andrea Stocco},
+	title        = {A Multi-Modality Evaluation of the Reality Gap in Autonomous Driving Systems},
+	booktitle    = {Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering},
+	series       = {ASE '25},
+	publisher    = {IEEE},
+	abbr         = {ASE},
+	year         = 2025
+}
+``` 
